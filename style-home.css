@@ -1,5 +1,7 @@
 .titulo-principal{
     padding-left: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 34px;
 }
 
 #banner {
@@ -13,33 +15,44 @@
 
 .titulo-centralizado {
     text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
 }
 
 p{
+    font-family: "Josefin Sans", sans-serif;
     text-align: center;
+    font-size: 22px;
 }
 
 em strong {
+    font-family: "Josefin Sans", sans-serif;
     color: red;
 }
 
 #mision {
+    font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
 }
 
 .diferenciales{
+    font-family: "Josefin Sans", sans-serif;
     background: #FFFFFF;
     padding: 30px;
+    font-size: 25px;
 }
 
 ul{
+    font-family: "Josefin Sans", sans-serif;
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
 .items{
+    font-family: "Josefin Sans", sans-serif;
     font-style: italic;
+    font-size: 20px;
 }
 
 .imagenDiferenciales{
