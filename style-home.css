@@ -52,7 +52,8 @@ ul{
 .items{
     font-family: "Josefin Sans", sans-serif;
     font-style: italic;
-    font-size: 20px;
+    padding: 20px 30px 40px 0;
+    font-size: 30px;
 }
 
 .imagenDiferenciales{
