@@ -53,7 +53,7 @@ em strong {
 .diferencialesTransicion{
     flex: 1;
     margin-bottom: 10px;
-    margin-left: 100px;
+    margin-left: 0;
     width: 50%; /* ajusta el ancho según tus necesidades */
     height: 400px; /* ajusta la altura según tus necesidades */
     background-size: cover; /* asegura que la imagen cubra todo el contenedor */
