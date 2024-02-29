@@ -36,10 +36,27 @@ em strong {
 }
 
 .diferenciales{
+    display: flex;
     font-family: "Josefin Sans", sans-serif;
     background: #FFFFFF;
-    padding: 30px;
+    padding: 10px;
     font-size: 25px;
+    margin-left: 200px;
+}
+.titulo-diferenciales{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.diferencialesTransicion{
+    margin-bottom: 10px;
+    margin-left: 100px;
+    width: 50%; /* ajusta el ancho según tus necesidades */
+    height: 400px; /* ajusta la altura según tus necesidades */
+    background-size: cover; /* asegura que la imagen cubra todo el contenedor */
+    animation: cambioImagen 10s infinite; /* cambia la imagen cada 10 segundos, y se repite infinitamente */
 }
 
 ul{
@@ -53,9 +70,25 @@ ul{
     font-family: "Josefin Sans", sans-serif;
     font-style: italic;
     padding: 20px 0;
-    font-size: 40px;
+    font-size: 30px;
+    
 }
 
 .imagenDiferenciales{
     width: 50%;
+}
+
+@keyframes cambioImagen {
+    0% {
+      background-image: url(imagenes/imagenes/imagen1.jpeg); /* primera imagen */
+    }
+    33% {
+      background-image: url(imagenes/imagenes/imagen2.jpeg); /* segunda imagen */
+    }
+    66% {
+      background-image: url(imagenes/imagenes/imagen3.jpeg); /* tercera imagen */
+    }
+    100% {
+      background-image: url(imagenes/imagenes/imagen4.jpg); /* vuelve a la primera imagen */
+    }
 }
