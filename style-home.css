@@ -41,7 +41,7 @@ em strong {
     background: #FFFFFF;
     padding: 10px;
     font-size: 25px;
-    margin-left: 200px;
+    margin-left: 10px;
 }
 .titulo-diferenciales{
     font-family: "Josefin Sans", sans-serif;
@@ -71,7 +71,6 @@ ul{
     font-style: italic;
     padding: 20px 0;
     font-size: 30px;
-    
 }
 
 .imagenDiferenciales{
