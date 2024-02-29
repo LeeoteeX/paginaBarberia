@@ -34,6 +34,12 @@ em strong {
     font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
 }
+.titulo-diferenciales{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
 
 .diferenciales{
     display: flex;
@@ -42,12 +48,6 @@ em strong {
     padding: 10px;
     font-size: 25px;
     margin-left: 10px;
-}
-.titulo-diferenciales{
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
-    text-align: center;
-
 }
 
 .diferencialesTransicion{
@@ -74,7 +74,7 @@ ul{
 }
 
 .imagenDiferenciales{
-    width: 50%;
+    width: 70%;
 }
 
 @keyframes cambioImagen {
