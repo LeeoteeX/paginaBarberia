@@ -51,6 +51,7 @@ em strong {
 }
 
 .diferencialesTransicion{
+    flex: 1;
     margin-bottom: 10px;
     margin-left: 100px;
     width: 50%; /* ajusta el ancho según tus necesidades */
