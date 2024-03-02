@@ -3,11 +3,13 @@ header{
     padding: 20px 0;
 }
 
-.caja{
-    width: 940px;
+.caja {
+    max-width: 100%; /* Puedes cambiar este valor según tus necesidades */
+    width: 90%; /* En lugar de width: 940px; */
     position: relative;
     margin: 0 auto;
 }
+
 
 nav{
     position: absolute;
@@ -35,7 +37,7 @@ nav a:hover{
 }
 
 .productos{
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
     padding: 50px;
 }
@@ -50,6 +52,11 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+}
+
+.productos li img{
+    max-width: 100%; /* Establece un ancho máximo para las imágenes */
+    height: auto
 }
 
 .productos li:hover{
