@@ -235,6 +235,8 @@ td, th{
     width: 100%;
 }
 
+
+
 .titulo-principal {
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
@@ -242,6 +244,13 @@ td, th{
     margin: 0 0 1em;
     padding: 10px;
     font-weight: bold;
+    clear: left;
+}
+
+.utensilios{
+    width: 200px;
+    float: left;
+    margin: 100px 50px 20px 40px;
 }
 
 .principal p{
