@@ -2,6 +2,20 @@ header{
     background-color: #BBBBBB;
     padding: 20px 0;
 }
+.header-index{
+    display: flex;
+    align-items: center;
+}
+.nav-index {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.logo-header{
+    width: 50px;
+}
 
 .caja {
     max-width: 100%; /* Puedes cambiar este valor según tus necesidades */
@@ -9,7 +23,25 @@ header{
     position: relative;
     margin: 0 auto;
 }
+.ul-index {
+    list-style-type: none;
+    margin: 20px 15px;
+    padding: 0;
+    width: auto;
+}
 
+.li-index {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.nav-index a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
 
 nav{
     position: absolute;
@@ -30,11 +62,46 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+.logo-header{
+    width: 50px;
+}
 
 nav a:hover{
     color: #c78c19;
     text-decoration: underline;
 }
+
+.titulo-principal{
+    display: inline-block;
+    padding-left: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+}
+
+
+.principal{
+    background: #CCCCCC;
+    padding: 25px;
+    text-align: center;
+}
+
+
+p{
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+}
+
+em strong {
+    font-family: "Josefin Sans", sans-serif;
+    color: red;
+}
+
+
+
 
 .productos{
     max-width: 940px;
@@ -100,7 +167,7 @@ footer{
 }
 
 main{
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -145,6 +212,10 @@ form label, form legend{
     transform:scale(1.2);
 }
 
+table{
+    margin: 40px 40px;
+}
+
 thead{
     background: #555555;
     color: white;
@@ -152,6 +223,101 @@ thead{
 
 }
 
-td{
+td, th{
     border: 1px solid #000000;
+    padding: 8px 15px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/*COMIENZO DEL CSS DE LA HOME*/
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2em;
+    margin: 0 0 1em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.mision {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.titulo-diferenciales{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+
+}
+
+.diferenciales{
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    background: #FFFFFF;
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 0;
+}
+.diferencialesTransicion{
+    flex: 1;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 50%; /* ajusta el ancho según tus necesidades */
+    height: 600px; /* ajusta la altura según tus necesidades */
+    background-size: cover; /* asegura que la imagen cubra todo el contenedor */
+    animation: cambioImagen 10s infinite; /* cambia la imagen cada 10 segundos, y se repite infinitamente */
+}
+.lista {
+    margin-top: 100px;
+    padding: 30px;
+}
+ul{
+    font-family: "Josefin Sans", sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 5%;
+}
+.items{
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.imagenDiferenciales{
+    width: 700px;
+}
+
+@keyframes cambioImagen {
+    0% {
+      background-image: url(imagenes/imagenes/imagen1.jpeg); /* primera imagen */
+    }
+    33% {
+      background-image: url(imagenes/imagenes/imagen2.jpeg); /* segunda imagen */
+    }
+    66% {
+      background-image: url(imagenes/imagenes/imagen3.jpeg); /* tercera imagen */
+    }
+    100% {
+      background-image: url(imagenes/imagenes/imagen4.jpg); /* vuelve a la primera imagen */
+    }
 }
