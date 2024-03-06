@@ -312,6 +312,11 @@ td, th{
     padding: 3em 20px;
 
 }
+
+.mapa p{
+    padding: 10px 0 2em;
+}
+
 .diferencialesTransicion{
     flex: 1;
     margin-bottom: 10px;
