@@ -294,6 +294,24 @@ td, th{
     font-size: 25px;
     margin-left: 0;
 }
+
+.titulo-mapa{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    background: #FFFFFF;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.iframe-mapa{
+    align-items: center;
+}
+.mapa{
+    padding: 3em 20px;
+
+}
 .diferencialesTransicion{
     flex: 1;
     margin-bottom: 10px;
