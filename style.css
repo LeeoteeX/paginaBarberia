@@ -149,9 +149,11 @@ em strong {
 }
 
 .producto-precio{
+    font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+    
 }
 
 footer{
@@ -165,14 +167,22 @@ footer{
     font-size: 13px;
     margin: 20px;
 }
+main form{
+    align-items: center;
+    margin-left: 100px;
+}
 
+main table{
+    margin-left: 200px;
+}
 main{
     width: 100%;
     margin: 0 auto;
 }
 
 form{
-    margin: 40px 0;
+    margin: 40px 30px;
+
 }
 
 form label, form legend{
@@ -298,7 +308,7 @@ td, th{
     margin-top: 100px;
     padding: 30px;
 }
-ul{
+.lista ul{
     font-family: "Josefin Sans", sans-serif;
     display: inline-block;
     vertical-align: top;
