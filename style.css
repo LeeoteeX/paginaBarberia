@@ -339,16 +339,17 @@ td, th{
     margin-right: 5px;
 }
 
-.items:first-child{
-    font-weight: bold;
-}
-
 .items{
     font-family: "Josefin Sans", sans-serif;
     font-style: italic;
     padding: 20px 0;
     font-size: 30px;
     line-height: 0.9;
+}
+
+.items:before{
+    font-style: normal;
+    content: "\2735";
 }
 
 .imagenDiferenciales{
