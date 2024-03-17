@@ -372,7 +372,7 @@ td, th{
 }
 
 .video{
-    width: 560px;
+    width: 100%;
     margin: 0 auto;
     display: block;
     padding: 70px 0;
@@ -380,4 +380,47 @@ td, th{
 
 .video-contenido{
     background: linear-gradient(#888888,black);
+}
+
+@media screen and (max-width:480px) {
+    h1 {
+        text-align: center;
+    }
+    .logo-header{
+        width: 60px;
+    }
+    .nav-index{
+        position: static;
+    }
+    .lista-diferenciales{
+        width: 50%;
+        margin-left: 5px;
+        order: 2;
+    }
+    .contenido-diferenciales{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagenDiferenciales{
+        width: 50%;
+        height: 200px;
+    }
+    .diferencialesTransicion{
+        width: 50%;
+        height: 200px;
+        display: block;
+        order: 1;
+    }
+    .items{
+        font-size: 18px;
+        padding: 5px 2px;
+    }
+    .video, .contenido-diferenciales{
+        width: 100%;
+    }
+    
+    .imagen-footer{
+        height: 150px;
+        padding: 0 0;
+    }
 }
