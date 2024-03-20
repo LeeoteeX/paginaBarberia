@@ -115,7 +115,7 @@ em strong {
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 30px 25px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -137,7 +137,7 @@ em strong {
 .productos h2{
     font-size: 30px;
     font-weight: bold;
-
+    height: 60px;
 }
 
 .productos li:hover h2{
@@ -152,7 +152,7 @@ em strong {
     font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 5px;
     
 }
 
