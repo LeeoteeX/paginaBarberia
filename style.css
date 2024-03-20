@@ -245,7 +245,9 @@ td, th{
     width: 100%;
 }
 
-
+h1.titulo-principal{
+    animation: fadeIn 3s ease-in-out forwards; 
+}
 
 .titulo-principal {
     text-align: center;
@@ -423,4 +425,21 @@ td, th{
         height: 150px;
         padding: 0 0;
     }
+    /* Clase para aplicar el efecto fade-in */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px); /* Opcional: añade un desplazamiento vertical */
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0); /* Opcional: vuelve a la posición original */
+        }
+    }
+    
+    /* CONFIGURACION PAGINA PRODUCTOS*/
+
+
+    
+
 }
